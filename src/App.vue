@@ -1,7 +1,11 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link>, |
+    <router-link to="/saludo/elKing">saludo</router-link>,
+    <router-link to="/prueba">prueba</router-link>,
+
+    
   </nav>
   <router-view/>
 </template>
